@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+h1 {
+  font-size: 70px;
+  color: orange;
+  margin: 0.9em;
+}
+
+h2 {
+  margin: 1em 0 0.5em;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+input {
+  border-radius: 20%;
+  font-family: 'Fredericka the Great', cursive;
+}
+input[type="number"] {
+  width: 6em;
+  text-align: center;
+}
+input[type="submit"] {
+  background-color: orange;
+  color: white;
+}
